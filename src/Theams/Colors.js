@@ -1,0 +1,22 @@
+export const Colors = {
+    white:'#fff',
+    primary:'#313484',
+    cream:'#fff4f2',
+    LightSky:'#f6f8ff',
+    ButtonSky:'#f6faff',
+    primary2:'#313484',
+    primaryFont:'#c7caf3',
+    BlackFont:'#0a0c38',
+    GrayFont:'#707379',
+    DisableFont:'#9f9fc5',
+    DarkOrange:'#ff7324',
+    LightOrange:'#ff9538',
+    Green:'#28a23a',
+    LightGreen:'#aef1b1',
+    Marron:'#a61700',
+    Pink:'#fe93cf',
+    Purple:'#b28efe',
+    font2:'#353a42',
+    Icon:'#030303',
+    DarkSky:'#405ff2'
+}

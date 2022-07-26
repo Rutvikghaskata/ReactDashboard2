@@ -1,0 +1,132 @@
+.main-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  .sidebar-container {
+    margin: 40px 0px 40px 40px;
+    width: 20%;
+  }
+  .header-container {
+    width: 80%;
+    margin: 40px 40px 40px 60px;
+    .card-wrapper {
+      width: 100%;
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 350px;
+
+      .upload-card {
+        width: 30%;
+        background-color: #fff4f2;
+        height: 100%;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+
+        .card-image {
+          width: 80%;
+          height: 60%;
+          object-fit: contain;
+          align-self: center;
+          border-radius: 20px;
+          margin-top: 10%;
+        }
+        .info-container {
+          height: 40%;
+          width: 80%;
+          align-self: center;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .info {
+            .title {
+              font-weight: 900;
+              font-family: "Nunito", sans-serif;
+              margin-bottom: 5px;
+            }
+            .value {
+              font-weight: 400;
+              font-family: "Nunito", sans-serif;
+              color: #888;
+            }
+          }
+          .add-btn {
+            height: 45px;
+            width: 45px;
+            border-radius: 13px;
+            background-color: #313484;
+            box-shadow: 0px 1px 44px 10px rgba(49, 52, 132, 0.54);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+      .card2 {
+        width: 30%;
+        height: 100%;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        margin: 0;
+
+        .folder {
+          height: 48%;
+          width: 100%;
+          background-color: #f6f8ff;
+          border-radius: 25px;
+        }
+
+        .card-part {
+          height: 43%;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+
+          .last-media-card {
+            height: 100%;
+            width: 45%;
+            background-color: #f6f8ff;
+            border-radius: 25px;
+          }
+          .urgent-card {
+            height: 100%;
+            width:45%;
+            border-radius: 25px;
+            background-color: #313484;
+            box-shadow: 1px 1px 33px 1px rgba(49,52,132,0.3);
+          }
+        }
+      }
+      .bg-image-card{
+        width: 30%;
+        height: 100%;
+        border-radius: 25px;
+        background-image: url('../../Images/skyimage.jfif');
+        overflow: hidden;
+
+        .upper-info{
+          height: 100%;
+          width: 100%;
+          background-color: rgba(49,52,132,0.4);
+        }
+      }
+    }
+    @media only screen and(max-width: 1024px) {
+      width: 100%;
+      margin: 10px;
+    }
+  }
+}
+
+@media only screen and(max-width: 1024px) {
+  .sidebar-container {
+    display: none;
+    width: 0;
+  }
+}
